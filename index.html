@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CATSterest</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a class="navigation__allCats current" href="index.html">Все котики</a>
+        <a class="navigation__favCats prev" href="favorite.html"
+          >Любимые котики</a
+        >
+      </nav>
+    </header>
+    <main>
+      <div id="allCats" class="cats"></div>
+    </main>
+    <footer>
+      <button class="loadSomeCats">
+        <h3>... загружаем еще котиков ...</h3>
+      </button>
+    </footer>
+    <script src="fetch.js"></script>
+    <script src="like.js"></script>
+    <script src="addToFav.js"></script>
+  </body>
+</html>
